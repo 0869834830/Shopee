@@ -1,9 +1,15 @@
-@media (min-width:820px) and (max-width:1180px){
+@media (min-width:768px) and (max-width:1024px){
     .header__form-list{
         display: none;
     }
+    .header__search{
+        margin-top: 0;
+    }
+    .grid__column-2-4{
+        width: 25%;
+    }
 }
-@media(max-width:819px){
+@media(max-width:767px){
     .header__navbar{
         display: none;
     }
