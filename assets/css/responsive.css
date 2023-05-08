@@ -1,0 +1,44 @@
+@media (min-width:820px) and (max-width:1180px){
+    .header__form-list{
+        display: none;
+    }
+}
+@media(max-width:819px){
+    .header__navbar{
+        display: none;
+    }
+    .header__form-list{
+        display: none;
+    }
+    .header__logo{
+        display: none;
+    }
+    .header__form{
+        margin: 0 50px;
+    }
+    .header__cart{
+        display: none;
+    }
+    .home-filter__label{
+        display: none;
+    }
+    .home-filter__trang{
+        display: none;
+    }
+    .grid__column-2{
+        display: none;
+    }
+    .grid__column-10{
+        width: 100%;
+    }
+    .grid__row{
+        padding: 0 5px;
+    }
+    .grid__column-2-4{
+        width: 50%;
+    }
+    .pagination{
+        display: none;
+    }
+   
+}

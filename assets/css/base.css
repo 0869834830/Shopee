@@ -88,7 +88,7 @@ html{
     animation: growth linear 0.1s;
 }
 .btn{
-    min-width:142px ;
+    width:142px ;
     height: 34px;
     border: none;
     cursor: pointer;

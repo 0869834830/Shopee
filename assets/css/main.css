@@ -732,6 +732,7 @@
  }
  /* home-filter */
  .home-filter{
+  
   background-color: #ebebeb;
   padding:12px 22px ;
   display: flex;
@@ -745,7 +746,7 @@
  }
  .home-filter__btn{
   margin-right: 12px;
-  min-width: 90px;
+  width: 90px;
  }
  .select-iput{
   position: relative;
