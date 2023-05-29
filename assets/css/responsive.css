@@ -14,7 +14,23 @@
 }
 @media(max-width:767px){
     .header__navbar{
+        /* display: none; */
+     
+    }
+    .header__notify{
+        left: 0;
+    }
+    .header__navbar-hover-list{
+        z-index: 2;
+    }
+    .header__notify::before{
         display: none;
+      }
+    .header__navbar-list-1{
+        display: none; 
+    }
+    .header__with-search{
+        height: 0;
     }
     .header__form-list{
         display: none;
