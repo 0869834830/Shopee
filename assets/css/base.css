@@ -64,15 +64,18 @@ html{
     }
 }
 /* Modal */
+
 .modal{
+    z-index: 2;
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    display: flex; 
+    display: none; 
     animation: alpha linear 0.1s ;
   }
+
  .modal__overlay{
     position: absolute;
     width: 100%;
@@ -86,6 +89,9 @@ html{
     position: relative;
     z-index: 1;
     animation: growth linear 0.1s;
+}
+.open{
+    display: flex;
 }
 .btn{
     width:142px ;

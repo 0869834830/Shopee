@@ -8,6 +8,9 @@
     .grid__column-2-4{
         width: 25%;
     }
+    .header__navbar-item-link{
+        display: none;
+    }
 }
 @media(max-width:767px){
     .header__navbar{

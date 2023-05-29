@@ -130,7 +130,7 @@
                         </li>
                         <li class="header__navbar-item header__navbar-us">
                             <img class="header__navbar-avt" src="./assets/img/avt.jpg" alt="">
-                            <span class="header__navbar-us-name">Nguyễn Quang Luân</span>
+                            <span class="header__navbar-us-name ">Nguyễn Quang Luân</span>
                             <ul class="header__navbar-hover-list">
                                 <li class="header__navbar-hover-item">
                                     <a class="header__navbar-hover-text" href="">Tài khoản của tôi </a> 
@@ -892,13 +892,13 @@
         </footer>
      </div>
       <!-- Modal layout-của số hiện thị -->
-      <!-- <div class="modal"> 
+      <div class="modal modal-js"> 
         <div class="modal__overlay">
 
         </div>
-        <div class="modal__body"> -->
+        <div class="modal__body">
                  <!-- Authen Form  -->
-                <!-- <div class="auth-form"> 
+                <div class="auth-form"> 
                     <div class="auth-form__container">
                         <div class="auth-form__header">
                            <h3 class="auth-form__heading">Đăng ký</h3>
@@ -942,9 +942,9 @@
                             Kết nối với google
                         </a>
                      </div>
-                </div>  -->
-                <!-- Login form -->
-                <!-- <div class="auth-form">
+                </div>  
+                <!-- Login form
+                <div class="auth-form">
                     <div class="auth-form__container">
                         <div class="auth-form__header">
                            <h3 class="auth-form__heading">Đăng nhập</h3>
@@ -989,5 +989,26 @@
                 </div> -->
         </div>
      </div> 
+     <script>
+        var modal= document.querySelector('.modal-js')
+        var singIn= document.querySelector('.header__navbar-us-name')
+        var auth= document.querySelector('.auth-form')
+        
+        function hienthi()
+            {
+            modal.classList.add('open')
+
+            }
+        function off()
+            {
+            modal.classList.remove('open')
+
+            }
+        singIn.onclick = hienthi
+        modal.onclick = off
+        auth.onclick=function(event){
+            event.stopPropagation()
+        }
+     </script>
 </body>
 </html>
