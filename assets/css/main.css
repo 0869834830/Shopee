@@ -824,6 +824,10 @@
  /* Product-item */
  .home-product{
   margin-bottom: 10px;
+  display: none;
+ }
+ .active{
+  display: block;
  }
  .home-product-item{
   background-color: var(--white-color);
